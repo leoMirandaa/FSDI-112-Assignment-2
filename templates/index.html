@@ -1,9 +1,14 @@
 {% extends 'base.html' %}
+{% load static %}
+
 
 {% block title%}Home{% endblock title%}
 
 {% block content %}
   <h1>My Django App</h1>
   <h3>Welcome to my Django application!</h3>
-  <p>Here you'll find a short persona bio and some fun images.</p>
-{% endblock content%}
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas tempora inventore in nisi at voluptatum dolorem? Vitae iure consequatur culpa doloremque qui, quis atque accusamus. Laboriosam nesciunt repudiandae tenetur velit!.</p>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas tempora inventore in nisi at voluptatum dolorem? Vitae iure consequatur culpa doloremque qui, quis atque accusamus. Laboriosam nesciunt repudiandae tenetur velit!.</p>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas tempora inventore in nisi at voluptatum dolorem? Vitae iure consequatur culpa doloremque qui, quis atque accusamus. Laboriosam nesciunt repudiandae tenetur velit!.</p>
+  <img src="{% static 'img/django.jpg'%}" alt="" style="width:40%">
+  {% endblock content%}
